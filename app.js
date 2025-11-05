@@ -7,7 +7,7 @@ const PORT = 3000;
 // Määritä reitti (route)
 app.get('/', (req, res) => {
   res.json({
-    message: 'Tervehdys pilvestä 3.2!',
+    message: 'Tervehdys pilvestä Tehtävä 3.2!',
     timestamp: new Date().toISOString()
   });
 });
