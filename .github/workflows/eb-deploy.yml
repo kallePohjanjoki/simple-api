@@ -47,7 +47,7 @@ jobs:
           # !! Set these to your EB application's values
           application_name: "simple-aapi"
           environment_name: "Simple-api-env-1"
-          aws_region: "eu-north-1"
+          region: "eu-north-1"
           
           # This creates a new version label for each deploy
           version_label: "v-${{ github.sha }}"
