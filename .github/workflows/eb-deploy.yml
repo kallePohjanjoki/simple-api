@@ -45,7 +45,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           
           # !! Set these to your EB application's values
-          application_name: "simple-aapi"
+          application_name: "simple-api"
           environment_name: "Simple-api-env-1"
           region: "eu-north-1"
           
